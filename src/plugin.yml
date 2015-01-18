@@ -1,0 +1,9 @@
+name: AutoMP
+main: com.mydeblob.automp.AutoMP
+version: 1.0
+author: mydeblob
+depends: [WorldEdit]
+commands:
+   mp:
+      description: Starts a mine party
+      usage: /<command>

@@ -1,0 +1,14 @@
+# Welcome to the config for AutoMP
+
+commands:
+   - broadcast A mineparty has started! Type /warp mp
+   
+countdown: 30
+
+interval_commands:
+   30:
+      - broadcast A mineparty is starting in 30 seconds! Type /warp mp!
+   15:
+      - broadcast A mineparty is starting in 15 seconds! Type /warp mp!
+   5:
+      - broadcast A mineparty is starting in 5 seconds! Type /warp mp!
